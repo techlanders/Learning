@@ -92,6 +92,6 @@ kubeadm join 172.31.23.148:6443 --token anhfg0.u7syvgnmveezqakv \
 ===========================================
 
 Check nodes on master:
-kubeadm get nodes
+kubectl get nodes
 
 
