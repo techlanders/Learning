@@ -1,0 +1,34 @@
+Docker Cheatsheet
+=====================
+
+docker version  // to check the docker version and ensure engine is running
+
+docker run hello-world  // to run first container from image hello-world
+
+docker ps // to see running container
+
+docker ps -a // to see all containers
+
+docker ps -l // last created container
+
+docker ps -aq // to print the ids of containers instead of complete details
+
+docker run --name container1 image-name // to create a new container with specific name
+
+docker run --hostname hostname image-name // to create a new container with speicifc hostname
+
+docker run -P image-name // to map a container port to random port of system
+
+docker run -d image-name  // to run a container in background
+
+docker exec -it container /bin/bash // to enter inside a container
+
+docker run -p 8080:80 image-name // to create a container and  map container port 80 to system port 8080
+
+docker stats  // to check stats of containers
+
+docker top container-name // to check processes of container
+
+docker logs container-name //to check logs of container
+
+
