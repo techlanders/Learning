@@ -1,0 +1,40 @@
+kubectl get nodes  // to describe nodes in k8s cluster
+
+kubectl version   // to check version of Kubernetes
+
+kubectl cluster-info   // to check the cluster information
+
+kubectl describe nodes node1  // to check details about node1
+
+kubectl run techlandersapp --image=httpd  // to run a pod with httpd application image
+
+kubectl create deployment app --image httpd  // to create a deployment with httpd application image
+
+kubectl get deployments  // to check the deployments in cluster (default namespace)
+
+kubectl get pods // to check running pods in the environment (default namespace)
+
+kubectl get rs  // to check replicasets in the environment (default namespace)
+
+kubectl get pods -o wide //to list  detailed info like where pods are running
+
+kubectl get pods  -o json //Output in json format
+
+kubectl describe pod pod-name // to check details of a pod
+
+kubectl logs pod-name  // check logs of pod
+
+kubectl exec pod-name -it /bin/bash  // login inside a pod
+
+kubectl delete pod pod-name // to delete a pod
+
+kubectl delete rs rs -name // to delete a replicaset
+
+kubectl delete deployment deployment-name // to delete a deployment
+
+kubectl expose deployment <name> --type=NodePort --port 80 // to expose the deployment to outside world
+
+kubectl get service  // to see the services
+
+kubectl scale deployment <name> --replicas=5   // to scale the replicasets to 5
+
