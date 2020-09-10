@@ -1,4 +1,4 @@
-This is Kubernets installation short script for k8s version 1.19.0 on Centos 7
+# This is Kubernetes installation short script for k8s version 1.19.0 on Centos 7
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Refer documentation page https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm
